@@ -1,0 +1,39 @@
+# [Info]
+site_name: 月全食
+site_description: 个人网站文档
+
+# [Navigation]
+nav:
+  - 个人:
+    - ME/profile.md
+  
+  - 项目:
+    - Project/Projects.md
+
+  - 课程:
+    - Course/Course_asm.md
+
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: light blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.sections
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - codehilite:
+      guess_lang: false
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist
